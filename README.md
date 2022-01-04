@@ -1,5 +1,5 @@
 ## [FuxiCTR] CTR预估模型的高效、高性能实现（二）
-本仓库是便于读者快速上手FuxiCTR而设立，具体实现步骤请参考原博文。
+本仓库是便于读者快速上手FuxiCTR而设立，具体实现步骤请参考[原博文](https://zhuanlan.zhihu.com/p/453385054)。
 ### FuxiCTR
 仓库使用的是FuxiCTR v1.1版本，原仓库请参考:
 ```bash

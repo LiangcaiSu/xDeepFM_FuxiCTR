@@ -17,7 +17,8 @@ FuxiCTR的版权归开发者所有，推荐使用最新版替换仓库中的fuxi
 nohup python -u main_xdeepfm.py --gpu 0 > logs/xdeepfm_criteo_x4.log & 
 ```
 使用调参工具训练多个模型:
-切换到目录tuner下:```cd tuner```
+
+切换到目录tuner下(```cd tuner```)
 ```bash
 nohup python -u run_param_tuner.py --config ../config/xdeepfm_criteo_x4/tuner_xdeepfm_criteo_x4.yaml --gpu 0 1 > ../logs/tuner_xdeepfm_criteo_x4.log & 
 ```
